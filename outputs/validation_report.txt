@@ -1,0 +1,19 @@
+PASS: GeoTIFF dimensions - 64 x 64
+PASS: GeoTIFF band count - 220 bands
+PASS: GeoTIFF data type - float32
+PASS: Coordinate reference system - Expected: synthetic local grid without geographic CRS
+PASS: HDF5 cube dimensions - (64, 64, 220)
+PASS: Spectral band count - 220 bands
+PASS: Cube data type - float32
+PASS: No missing values in cube - Finite values: 901120
+PASS: Reflectance values in expected range - Minimum: 0.00000, Maximum: 0.51006
+PASS: Stress mask dimensions - (64, 64)
+PASS: Stress mask values - Classes: [0, 1]
+PASS: Wavelength count - 220 wavelengths
+PASS: Wavelength values - Range: 400.00 - 2500.00 nm
+PASS: HDF5 and GeoTIFF data consistency - Pixel values match
+=======================================================
+Total checks: 14
+Passed: 14
+Failed: 0
+Overall status: SUCCESS
