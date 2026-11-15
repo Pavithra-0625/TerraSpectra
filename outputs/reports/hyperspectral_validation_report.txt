@@ -1,0 +1,40 @@
+
+TERRASPECTRA - HYPERSPECTRAL DATA VALIDATION REPORT
+===================================================
+
+Dataset: HyperLeaf2024
+
+TOTAL TIFF FILES: 99
+SUCCESSFULLY LOADED: 98
+FAILED / EXCLUDED: 1
+
+EXCLUDED FILE:
+02308.tiff
+
+HYPERSPECTRAL IMAGE DETAILS:
+Spectral bands: 204
+Image dimensions: 48 x 352
+Data type: uint16
+
+SAMPLE IMAGE BACKGROUND ANALYSIS:
+Image: 02392.tiff
+Total spatial pixels: 16896
+Potential valid pixels: 3069
+Background pixels: 13827
+Background percentage: 81.84%
+
+VALIDATION:
+- TIFF array structure verified using tifffile.
+- 204 spectral bands confirmed.
+- Background mask generated.
+- Reusable hyperspectral loader implemented.
+- Batch validation completed.
+- One damaged TIFF excluded from processing.
+
+NEXT STEPS:
+- PCA dimensionality reduction.
+- Spectral preprocessing.
+- Disease-labelled dataset integration.
+
+===================================================
+TerraSpectra - Data Pipeline
