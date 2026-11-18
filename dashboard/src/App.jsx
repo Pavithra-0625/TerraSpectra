@@ -1,5 +1,6 @@
 
 import { useState } from 'react'
+import FarmMap from './FarmMap'
 import './App.css'
 
 function App() {
@@ -57,6 +58,21 @@ function App() {
             <div className="avatar">TS</div>
           </div>
         </header>
+
+        {activeTab === 'Farm Map' && (
+          <section className="panel farm-map-panel">
+            <div className="panel-heading">
+              <div>
+                <h3>Farm Geographical Map</h3>
+                <p>Interactive satellite map powered by Mapbox</p>
+              </div>
+              <span className="tag">MAPBOX</span>
+            </div>
+            <div style={{ marginTop: '20px' }}>
+              <FarmMap />
+            </div>
+          </section>
+        )}
 
         <section className="welcome">
           <div>

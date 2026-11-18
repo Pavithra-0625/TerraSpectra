@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "farm_id": "FARM_001",
+        "farm_name": "Ladhowal Demo Farm",
+        "crop": "Wheat",
+        "status": "Monitoring",
+        "data_source": "Synthetic demonstration boundary",
+        "location": "Ladhowal, Ludhiana, Punjab, India"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.7325, 30.9932],
+            [75.7355, 30.9932],
+            [75.7355, 30.9950],
+            [75.7325, 30.9950],
+            [75.7325, 30.9932]
+          ]
+        ]
+      }
+    }
+  ]
+}
