@@ -7,7 +7,7 @@ REPORT_FOLDER = Path("outputs/reports")
 
 
 def main():
-    images = VALID_LIST.read_text().splitlines()[:10]
+    images = VALID_LIST.read_text().splitlines()[:50]
     successful = []
     failed = []
 

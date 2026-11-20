@@ -1,7 +1,7 @@
 TERRASPECTRA - RASTERIO HYBRID LOADER VALIDATION
 =======================================================
-Images tested: 10
-Successful: 10
+Images tested: 50
+Successful: 50
 Failed: 0
 
 Successful images:
@@ -15,6 +15,46 @@ Successful images:
 01866.tiff
 01867.tiff
 01868.tiff
+01869.tiff
+01872.tiff
+01881.tiff
+01882.tiff
+01883.tiff
+01884.tiff
+01885.tiff
+01886.tiff
+01887.tiff
+01888.tiff
+01889.tiff
+01890.tiff
+01891.tiff
+01892.tiff
+01893.tiff
+01894.tiff
+01895.tiff
+01896.tiff
+01897.tiff
+01898.tiff
+01899.tiff
+01900.tiff
+01901.tiff
+01902.tiff
+01903.tiff
+01904.tiff
+01905.tiff
+01906.tiff
+01907.tiff
+01908.tiff
+01909.tiff
+01910.tiff
+01911.tiff
+01912.tiff
+01913.tiff
+01914.tiff
+01915.tiff
+01916.tiff
+01917.tiff
+01918.tiff
 
 Failed images:
 

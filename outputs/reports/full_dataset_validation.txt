@@ -1,0 +1,56 @@
+TERRASPECTRA - FULL DATASET VALIDATION
+==================================================
+Total images: 2410
+Successful: 2363
+Failed: 47
+
+FAILED IMAGES:
+00160.tiff: 'data/raw/HyperLeaf2024/00160.tiff' not recognized as being in a supported file format.
+00161.tiff: failed to read 6893568 bytes, got 6291200
+00162.tiff: 'data/raw/HyperLeaf2024/00162.tiff' not recognized as being in a supported file format.
+00163.tiff: 'data/raw/HyperLeaf2024/00163.tiff' not recognized as being in a supported file format.
+00164.tiff: 'data/raw/HyperLeaf2024/00164.tiff' not recognized as being in a supported file format.
+00165.tiff: 'data/raw/HyperLeaf2024/00165.tiff' not recognized as being in a supported file format.
+00166.tiff: 'data/raw/HyperLeaf2024/00166.tiff' not recognized as being in a supported file format.
+00167.tiff: 'data/raw/HyperLeaf2024/00167.tiff' not recognized as being in a supported file format.
+00168.tiff: 'data/raw/HyperLeaf2024/00168.tiff' not recognized as being in a supported file format.
+00169.tiff: 'data/raw/HyperLeaf2024/00169.tiff' not recognized as being in a supported file format.
+00197.tiff: failed to read 6893568 bytes, got 6291200
+00198.tiff: failed to read 6893568 bytes, got 5373696
+00199.tiff: failed to read 6893568 bytes, got 5570304
+00200.tiff: failed to read 6893568 bytes, got 6160128
+00313.tiff: failed to read 6893568 bytes, got 4259584
+00314.tiff: failed to read 6893568 bytes, got 4325120
+00315.tiff: failed to read 6893568 bytes, got 4259584
+00316.tiff: failed to read 6893568 bytes, got 4325120
+00317.tiff: failed to read 6893568 bytes, got 4259584
+00318.tiff: failed to read 6893568 bytes, got 4325120
+00319.tiff: failed to read 6893568 bytes, got 4325120
+00320.tiff: failed to read 6893568 bytes, got 4390656
+00321.tiff: failed to read 6893568 bytes, got 6684416
+01013.tiff: 'data/raw/HyperLeaf2024/01013.tiff' not recognized as being in a supported file format.
+01014.tiff: 'data/raw/HyperLeaf2024/01014.tiff' not recognized as being in a supported file format.
+01015.tiff: 'data/raw/HyperLeaf2024/01015.tiff' not recognized as being in a supported file format.
+01016.tiff: 'data/raw/HyperLeaf2024/01016.tiff' not recognized as being in a supported file format.
+01017.tiff: 'data/raw/HyperLeaf2024/01017.tiff' not recognized as being in a supported file format.
+01042.tiff: failed to read 6893568 bytes, got 5373696
+01043.tiff: failed to read 6893568 bytes, got 3604224
+01044.tiff: failed to read 6893568 bytes, got 3604224
+01045.tiff: failed to read 6893568 bytes, got 3473152
+01046.tiff: failed to read 6893568 bytes, got 3538688
+01047.tiff: failed to read 6893568 bytes, got 3538688
+01048.tiff: failed to read 6893568 bytes, got 3604224
+01049.tiff: failed to read 6893568 bytes, got 3538688
+01050.tiff: failed to read 6893568 bytes, got 3538688
+01051.tiff: failed to read 6893568 bytes, got 3538688
+01052.tiff: failed to read 6893568 bytes, got 3538688
+01053.tiff: failed to read 6893568 bytes, got 3604224
+01054.tiff: 'data/raw/HyperLeaf2024/01054.tiff' not recognized as being in a supported file format.
+01870.tiff: Known damaged TIFF file: 01870.tiff
+01871.tiff: Known damaged TIFF file: 01871.tiff
+01873.tiff: Known damaged TIFF file: 01873.tiff
+01874.tiff: Known damaged TIFF file: 01874.tiff
+01876.tiff: Known damaged TIFF file: 01876.tiff
+02308.tiff: Known damaged TIFF file: 02308.tiff
+
+OVERALL STATUS: PARTIAL
