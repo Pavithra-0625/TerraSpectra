@@ -108,3 +108,55 @@ Pandas, Rasterio and NumPy.
 The physical interpretation of the TIFF pixel values and
 their relationship to spectral measurements require further
 verification from the official dataset documentation.
+
+## 10. Full Dataset Validation and Cleanup
+
+A complete validation scan was performed on the original
+2,410 TIFF images using the hyperspectral image loader.
+
+### Validation Results
+
+| Metric | Result |
+|---|---:|
+| Original TIFF images | 2,410 |
+| Successfully validated | 2,363 |
+| Failed validation | 47 |
+| Images retained | 1,000 |
+| Images removed | 1,410 |
+
+The 1,000 retained images were selected from the successfully
+validated image list. This ensures that the working dataset
+contains images that passed the implemented validation checks.
+
+### Storage Optimization
+
+| Metric | Before | After |
+|---|---:|---:|
+| Dataset storage | Approximately 16 GB | 6.5 GB |
+| TIFF image count | 2,410 | 1,000 |
+
+- Approximately 9.5 GB of dataset storage was freed.
+- The retained dataset is approximately 59.4% smaller.
+- Raw TIFF files remain excluded from Git tracking through
+  `.gitignore`.
+- The selected image list is saved in
+  `outputs/reports/selected_1000_images.txt`.
+- The deletion manifest is saved in
+  `outputs/reports/images_to_delete.txt`.
+
+### Validation Reports
+
+The following reports are maintained for reproducibility:
+
+- `outputs/reports/full_dataset_validation.txt`
+- `outputs/reports/valid_hyperspectral_images.txt`
+- `outputs/reports/selected_1000_images.txt`
+- `outputs/reports/images_to_delete.txt`
+
+### Current Dataset Status
+
+The working HyperLeaf2024 image collection contains 1,000
+successfully validated TIFF files. The dataset remains a
+supplementary candidate because disease labels, geographic
+coordinates and the physical interpretation of its spectral
+measurements have not yet been established.
