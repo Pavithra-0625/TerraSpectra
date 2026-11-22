@@ -77,9 +77,9 @@ function App() {
             <div className="panel-heading">
               <div>
                 <h3>Farm Geographical Map</h3>
-                <p>Interactive satellite map powered by Mapbox</p>
+              <p>Interactive satellite map powered by Leaflet, Esri and Deck.gl</p>
               </div>
-              <span className="tag">MAPBOX</span>
+              <span className="tag">DECK.GL + LEAFLET</span>
             </div>
             <div style={{ marginTop: '20px' }}>
               <FarmMap />
