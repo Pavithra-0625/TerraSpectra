@@ -1,7 +1,10 @@
 
 import { useState } from 'react'
 import FarmMap from './FarmMap'
+import Heatmap from './Heatmap'
+import PixelGrid from './PixelGrid'
 import './App.css'
+import ApiTest from './ApiTest'
 
 function App() {
   const [activeTab, setActiveTab] = useState('Overview')
@@ -18,7 +21,10 @@ function App() {
   'Farm Map',
   'Spectral Analysis',
   'Disease Monitoring',
-  'Model Performance'
+  'Model Performance',
+  'Spectral Heatmap',
+  'Pixel Grid',
+  'Mock API Test'
 ]
 
   return (
@@ -79,7 +85,7 @@ function App() {
             </div>
           </section>
         )}
- {activeTab === 'Model Performance' && (
+ {activeTab === 'Model Performance' && (                                                 
   <section className="model-performance">
     <div className="panel">
       <h3>Plant Trait Prediction Results</h3>
@@ -102,6 +108,15 @@ function App() {
       <img src="/images/rmse_comparison.png" alt="RMSE comparison" />
     </div>
   </section>
+)}
+{activeTab === 'Spectral Heatmap' && (
+  <Heatmap />
+)}
+{activeTab === 'Pixel Grid' && (
+  <PixelGrid />
+)}
+{activeTab === 'Mock API Test' && (
+  <ApiTest />
 )}
         <section className="welcome">
           <div>

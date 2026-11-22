@@ -451,3 +451,60 @@ button {
     max-height: 350px;
   }
 }
+/* Spectral Heatmap */
+.heatmap-panel {
+  margin-top: 20px;
+}
+
+.heatmap-image {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f7fafc;
+  border-radius: 10px;
+  border: 1px solid #e7ebf1;
+}
+
+.heatmap-image img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: contain;
+  display: block;
+}
+
+.heatmap-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.heatmap-info div {
+  background: #f7fafc;
+  padding: 15px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.heatmap-info strong {
+  color: #168d69;
+  font-size: 20px;
+}
+
+.heatmap-info span {
+  color: #748197;
+  font-size: 12px;
+}
+
+.heatmap-note {
+  margin-top: 15px;
+  color: #8995a7;
+  font-size: 12px;
+}
+
+@media (max-width: 650px) {
+  .heatmap-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
