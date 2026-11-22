@@ -14,3 +14,11 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+# Generated machine learning models
+*.pkl
+*.joblib
+
+# Large intermediate datasets
+outputs/plant_trait_features.csv
+outputs/grainweight_model_results.csv
+outputs/reports/matched_training_labels.csv
