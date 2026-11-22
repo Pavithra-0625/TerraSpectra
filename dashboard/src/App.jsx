@@ -13,7 +13,13 @@ function App() {
     { title: 'Valid Pixels', value: '18.16%', detail: 'Sample image 02392' },
   ]
 
-  const tabs = ['Overview', 'Farm Map', 'Spectral Analysis', 'Disease Monitoring']
+  const tabs = [
+  'Overview',
+  'Farm Map',
+  'Spectral Analysis',
+  'Disease Monitoring',
+  'Model Performance'
+]
 
   return (
     <div className="dashboard">
@@ -73,7 +79,30 @@ function App() {
             </div>
           </section>
         )}
+ {activeTab === 'Model Performance' && (
+  <section className="model-performance">
+    <div className="panel">
+      <h3>Plant Trait Prediction Results</h3>
+      <p>Regression model evaluation using 634 matched images</p>
+      <p>Best model: Random Forest</p>
+    </div>
 
+    <div className="panel">
+      <h3>R² Score Comparison</h3>
+      <img src="/images/r2_comparison.png" alt="R2 comparison" />
+    </div>
+
+    <div className="panel">
+      <h3>MAE Comparison</h3>
+      <img src="/images/mae_comparison.png" alt="MAE comparison" />
+    </div>
+
+    <div className="panel">
+      <h3>RMSE Comparison</h3>
+      <img src="/images/rmse_comparison.png" alt="RMSE comparison" />
+    </div>
+  </section>
+)}
         <section className="welcome">
           <div>
             <p className="eyebrow">HYPERSPECTRAL CROP INTELLIGENCE</p>
