@@ -1,4 +1,4 @@
-
+import CultivarResults from './CultivarResults'
 import { useState } from 'react'
 import FarmMap from './FarmMap'
 import Heatmap from './Heatmap'
@@ -24,7 +24,8 @@ function App() {
   'Model Performance',
   'Spectral Heatmap',
   'Pixel Grid',
-  'Mock API Test'
+  'Mock API Test',
+  'Cultivar Classification'
 ]
 
   return (
@@ -117,6 +118,9 @@ function App() {
 )}
 {activeTab === 'Mock API Test' && (
   <ApiTest />
+)}
+{activeTab === 'Cultivar Classification' && (
+  <CultivarResults />
 )}
         <section className="welcome">
           <div>
