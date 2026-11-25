@@ -4,6 +4,7 @@ import FarmMap from './FarmMap'
 import Heatmap from './Heatmap'
 import PixelGrid from './PixelGrid'
 import './App.css'
+import WheatDiseaseResults from './WheatDiseaseResults'
 import ApiTest from './ApiTest'
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
   'Spectral Heatmap',
   'Pixel Grid',
   'Mock API Test',
-  'Cultivar Classification'
+  'Cultivar Classification',
+  'Wheat Disease Explainability'
 ]
 
   return (
@@ -121,6 +123,9 @@ function App() {
 )}
 {activeTab === 'Cultivar Classification' && (
   <CultivarResults />
+)}
+{activeTab === 'Wheat Disease Explainability' && (
+  <WheatDiseaseResults />
 )}
         <section className="welcome">
           <div>

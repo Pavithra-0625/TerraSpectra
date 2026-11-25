@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "prediction_id": "P001",
+        "disease": "BrownRust",
+        "confidence": 0.82,
+        "source": "Synthetic demonstration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7330, 30.9935]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "prediction_id": "P002",
+        "disease": "Healthy",
+        "confidence": 0.91,
+        "source": "Synthetic demonstration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7340, 30.9937]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "prediction_id": "P003",
+        "disease": "Septoria",
+        "confidence": 0.76,
+        "source": "Synthetic demonstration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7335, 30.9941]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "prediction_id": "P004",
+        "disease": "YellowRust",
+        "confidence": 0.88,
+        "source": "Synthetic demonstration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7345, 30.9945]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "prediction_id": "P005",
+        "disease": "Mildew",
+        "confidence": 0.69,
+        "source": "Synthetic demonstration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7330, 30.9947]
+      }
+    }
+  ]
+}
